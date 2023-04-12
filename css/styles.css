@@ -752,7 +752,6 @@ body {
   height: 40px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
-  margin-bottom: 8px;
 }
 .contact-from-message {
   width: 100%;
@@ -785,4 +784,16 @@ body {
 .modal-clue {
   display: flex;
   margin-bottom: 4px;
+}
+.modal-icon {
+  position: absolute;
+  left: 16px;
+}
+.input-wrap {
+  position: relative;
+  top: 50%;
+  transform: translatey(-50%);
+}
+.modal-field {
+  margin-bottom: 8px;
 }
